@@ -1,0 +1,27 @@
+Java Source Code (.java)
+        ↓ (compiled by javac)
+    Bytecode (.class)
+        ↓ (executed by JVM)
+    Program runs on any OS
+
+
+
+"Write Once, Run Anywhere"
+Thanks to the JVM, Java code runs platform-independently:
+
+You write your code once in .java
+
+Compile it to .class bytecode
+
+JVM on any OS can run it
+
+--------------------------------------------------------------------------------------------------
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello JVM!");
+    }
+}
+
+--------------------------------------------------------------------------------------------------
+javac Hello.java  # compiles to Hello.class (bytecode)
+java Hello        # JVM runs it!
